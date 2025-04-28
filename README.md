@@ -3,11 +3,6 @@
 **Perfect display effect**
 ![image](https://github.com/user-attachments/assets/e96f04ad-9520-4523-a713-fba60b34bc8c)
 
-Tools used: 
-- [eza](https://github.com/eza-community/eza?tab=readme-ov-file)
-- 
-
-
 
 ## Highlight
 - Lighten the display color of system information (memory).
@@ -28,3 +23,9 @@ Tools used:
 Perfectly adapted to the VS Code terminal.
 ![image](https://github.com/user-attachments/assets/7d3b1dea-8693-4b57-9693-e7eb791ba683)
 
+## installation
+**Tools used:**
+- [eza](https://github.com/eza-community/eza?tab=readme-ov-file)
+- [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh)
+**Font:**
+- [Nerd Fonts](https://www.nerdfonts.com/)
