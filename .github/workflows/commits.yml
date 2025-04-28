@@ -1,7 +1,0 @@
-name: Validate Commits
-
-on: [pull_request]
-
-jobs:
-  commitlint:
-    uses: jandedobbeleer/workflows/.github/workflows/commits.yml@main
