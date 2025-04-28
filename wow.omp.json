@@ -1,0 +1,82 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+{
+          "foreground": "#f0d7fe",
+          "properties": {
+            "fetch_version": true,
+            "fetch_virtual_env": true,
+            "home_enabled": true
+          },
+          "style": "plain",
+          "template": "(<{{ if .Root }}#d285ff{{ else }}#f0d7fe{{ end }}>\ue235</> {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }}) ",
+          "type": "python"
+        },
+        {
+          "foreground": "#45F1C2",
+          "style": "plain",
+          "template": "\ueb99 {{ .UserName }}",
+          "type": "session"
+        },
+        {
+          "foreground": "#0CA0D8",
+          "properties": {
+            "folder_separator_icon": "/",
+            "style": "full"
+          },
+          "style": "plain",
+          "template": " \uf07b {{ .Path }} ",
+          "type": "path"
+        },
+        {
+          "foreground": "#14A5AE",
+          "powerline_symbol": "\ue0b0",
+          "properties": {
+            "fetch_stash_count": true,
+            "fetch_upstream_icon": false
+          },
+          "style": "plain",
+          "template": "{{ .HEAD }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} ",
+          "type": "git"
+        }
+      ],
+      "type": "prompt"
+    },
+    {
+      "alignment": "left",
+      "segments": [
+        {
+          "foreground": "#696969",
+          "style": "plain",
+          "template": "\ue266 {{ round .PhysicalPercentUsed .Precision }}% ",
+          "type": "sysinfo"
+        }
+       ],
+      "type": "prompt"
+      },
+     {
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "foreground": "#cd5e42",
+          "style": "plain",
+          "template": "\u276f",
+          "type": "root"
+        },
+        {
+          "foreground": "#CD4277",
+          "style": "plain",
+          "template": "\u276f ",
+          "type": "text"
+        }
+      ],
+      "type": "prompt"
+    }
+  ],
+  "version": 3
+}
