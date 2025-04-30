@@ -1,7 +1,7 @@
 # OhMyPosh-WoW-Theme
 ## Introduction
 **Perfect display effect**
-![image](https://github.com/user-attachments/assets/e96f04ad-9520-4523-a713-fba60b34bc8c)
+![image](https://github.com/user-attachments/assets/b649e474-c54a-47a3-aa25-daa3f3bf75d1)
 
 ## Highlight
 - Lighten the display color of system information (memory).
@@ -10,17 +10,17 @@
 ## Theme
 ### Windows Terminal
 - Virtual environment not activated, non-root permissions
-![image](https://github.com/user-attachments/assets/608cabdc-96ab-423d-8696-16e1965134f2)
+![image](https://github.com/user-attachments/assets/8428b2a8-be89-41b2-bed9-9446b092c521)
 - Virtual environment activated, non-root permissions
-![image](https://github.com/user-attachments/assets/419b89b4-87ad-4f0c-b161-3de67e81c4dd)
+![image](https://github.com/user-attachments/assets/156b1e4f-fca6-421d-9c74-34a2ae2f6e35)
 - Virtual environment not activated, root permissions (The two arrows represent root permissions)
-![image](https://github.com/user-attachments/assets/afab38e0-4bc2-44d2-913c-e2330f802039)
+![image](https://github.com/user-attachments/assets/d3f6ba30-14b8-46d1-90ee-a55153cad5e0)
 - Virtual environment activated, root permissions (The Python icon turns dark purple)
-![image](https://github.com/user-attachments/assets/14690c75-6d6b-4dc3-8c22-15b721e3a96e)
+![image](https://github.com/user-attachments/assets/7235b07a-8186-43d9-9990-8f99de0915a5)
 
 ### VS Code
 Perfectly adapted to the VS Code terminal.
-![image](https://github.com/user-attachments/assets/7d3b1dea-8693-4b57-9693-e7eb791ba683)
+![image](https://github.com/user-attachments/assets/7ab08bd8-fd07-4ff7-ac13-7152bfd46359)
 
 ## installation
 **Tools used:**
