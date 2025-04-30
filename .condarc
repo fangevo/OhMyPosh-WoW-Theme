@@ -1,0 +1,13 @@
+channels:
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+  - https://repo.anaconda.com/pkgs/msys2
+
+envs_dirs:
+  - D:\software\anaconda3\envs     
+pkgs_dirs:
+  - D:\software\anaconda3\pkgs
+
+auto_activate_base: false
+
