@@ -4,6 +4,7 @@
 ![image](https://github.com/user-attachments/assets/b649e474-c54a-47a3-aa25-daa3f3bf75d1)
 
 ## Highlight
+- Perfect compatibility, no bugs
 - Lighten the display color of system information (memory).
 - Fun and concise, displaying only useful information.
 
