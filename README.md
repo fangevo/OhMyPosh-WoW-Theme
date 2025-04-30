@@ -51,7 +51,7 @@ Add the following command to the your configuration file (~/wow.omp.json is the 
 ```oh-my-posh init pwsh --config "$env:C:\Users\yt\wow.omp.json" | Invoke-Expression```
 
 - ### eza installation
-Run the command:
+For windows, run the command:
 ```winget install eza-community.eza```
 See [installation instructions](https://github.com/eza-community/eza?tab=readme-ov-file) for other OS.
 
