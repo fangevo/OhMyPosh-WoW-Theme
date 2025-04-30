@@ -30,13 +30,13 @@ Perfectly adapted to the VS Code terminal.
 **Font:**
 - [Nerd Fonts](https://www.nerdfonts.com/)
 
-### Windows Terminal installation
+- ### Windows Terminal installation
 The Windows 10 system does not come with a built-in Terminal, but you can install Windows Terminal from the Microsoft Store.
 
-### Font installation
+- ### Font installation
 Download and install MesloLGM Nerd Font and CaskaydiaCove Nerd Font [Font Download](https://www.nerdfonts.com/).
 
-### OhMyPosh installation
+- ### OhMyPosh installation
 Open Git Bash or PowerShell in Windows Terminal and execute the following command:
 ```winget install JanDeDobbeleer.OhMyPosh```
 
@@ -50,7 +50,7 @@ Execute the following command in PowerShell to open or create a configuration fi
 Add the following command to the your configuration file (~/wow.omp.json is the path of your theme file)
 ```oh-my-posh init pwsh --config "$env:C:\Users\yt\wow.omp.json" | Invoke-Expression```
 
-### eza installation
+- ### eza installation
 Run the command:
 ```winget install eza-community.eza```
 See [installation instructions](https://github.com/eza-community/eza?tab=readme-ov-file) for other OS.
@@ -75,7 +75,7 @@ function Invoke-Eza {
 Set-Alias -Name ls -Value Invoke-Eza
 $env:EZA_CONFIG_DIR = "$env:USERPROFILE\.config\eza"```
 ```
-### VS Code Setting
+- ### VS Code Setting
 For the VS Code terminal, please use the CaskaydiaCove Nerd Font instead of other Nerd Fonts. In my tests, using other Nerd Fonts may cause issues with missing icons or layout misalignment in the VS Code terminal, possibly due to VS Code's renderer.
 
 ## Common bug fixes
