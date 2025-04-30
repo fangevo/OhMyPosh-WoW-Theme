@@ -3,7 +3,6 @@
 **Perfect display effect**
 ![image](https://github.com/user-attachments/assets/e96f04ad-9520-4523-a713-fba60b34bc8c)
 
-
 ## Highlight
 - Lighten the display color of system information (memory).
 - Fun and concise, displaying only useful information.
@@ -27,5 +26,19 @@ Perfectly adapted to the VS Code terminal.
 **Tools used:**
 - [eza](https://github.com/eza-community/eza?tab=readme-ov-file)
 - [Oh My Posh](https://github.com/JanDeDobbeleer/oh-my-posh)
+
 **Font:**
 - [Nerd Fonts](https://www.nerdfonts.com/)
+
+### Windows Terminal installation
+The Windows 10 system does not come with a built-in Terminal, but you can install Windows Terminal from the Microsoft Store.
+
+### Font installation
+Download and install MesloLGM Nerd Font and CaskaydiaCove Nerd Font [Font Download](https://www.nerdfonts.com/).
+
+### Font installation
+Download and install MesloLGM Nerd Font and CaskaydiaCove Nerd Font.
+
+## Common bug fixes
+### Git Bash experiences screen flickering when pressing backspace in Windows Terminal.
+'Add the line set bell-style none to ~/.inputrc (create the file if it doesn't exist).'
